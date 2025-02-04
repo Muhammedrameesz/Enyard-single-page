@@ -20,7 +20,7 @@ export default function App() {
             className="bg-white rounded-full  w-[200px] h-[40px] object-contain"
           />
           <motion.h1
-            className="text-5xl md:text-6xl lg:text-8xl font-bold text-white relative"
+            className="text-7xl  lg:text-8xl font-bold text-white relative"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
@@ -123,7 +123,7 @@ export default function App() {
         </motion.div>
       </section>
 
-      <footer className="text-center py-5 text-gray-400 text-sm mt-5 md:mt-10">
+      <footer className="text-center py-5 text-gray-400 text-sm mt-10">
         @ {new Date().getFullYear()} Enyard. All rights reserved.
       </footer>
     </div>
