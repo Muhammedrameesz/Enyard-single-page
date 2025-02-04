@@ -20,7 +20,7 @@ export default function App() {
             className="bg-white rounded-full  w-[200px] h-[40px] object-contain"
           />
           <motion.h1
-            className="text-7xl  lg:text-8xl font-bold text-white relative"
+            className="text-6xl  md:text-8xl font-bold text-white relative"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
