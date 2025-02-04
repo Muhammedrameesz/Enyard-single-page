@@ -7,7 +7,7 @@ export default function App() {
   const text = "Will be live soon".split("");
   return (
     <div className="mt-10 text-white font-sans">
-      <section className="grid grid-cols-1 md:grid-cols-2 px-6 md:px-10 mx-auto max-w-6xl gap-10">
+      <section className="grid grid-cols-1 md:grid-cols-2 px-6 md:px-10 mx-auto max-w-6xl gap-20 md:gap-16">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
