@@ -25,7 +25,10 @@ export default function App() {
             className="text-6xl  md:text-8xl font-bold text-white relative"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 1 }}
+            transition={{ 
+              duration: 1
+
+             }}
           >
             {text.map((letter, index) => (
               <motion.span
@@ -50,6 +53,8 @@ export default function App() {
                   duration: 0.5,
                   type: "spring",
                   stiffness: 100,
+                  damping: 5,
+                  
                 }}
                 whileHover={{ scale: 1.3, rotate: 5, color: "#FFD700" }}
               >
@@ -87,6 +92,7 @@ export default function App() {
                   duration: 0.5,
                   type: "spring",
                   stiffness: 100,
+                  damping: 5,
                 }}
                 whileHover={{ scale: 1.3, rotate: 5, color: "#FFD700" }}
               >
