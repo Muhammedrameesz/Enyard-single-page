@@ -105,7 +105,7 @@ export default function App() {
 
           <button
             className="border border-yellow-400 w-fit p-2 px-4 text-xl hover:border-purple-500 transition-colors duration-300"
-            onClick={() => (window.location.href = "tel:+918428807007")}
+            onClick={() => (window.location.href = "tel:+919840513007")}
           >
             Contact Us
           </button>
